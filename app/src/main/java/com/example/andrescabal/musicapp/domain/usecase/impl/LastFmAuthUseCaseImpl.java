@@ -1,11 +1,14 @@
 package com.example.andrescabal.musicapp.domain.usecase.impl;
 
-import co.devhack.musicapp.domain.model.MobileSessionResponse;
-import co.devhack.musicapp.domain.usecase.LastFmAuthUseCase;
-import co.devhack.musicapp.helpers.Callback;
-import co.devhack.musicapp.helpers.ThreadExecutor;
-import co.devhack.musicapp.repository.LastFmAuthRepository;
-import co.devhack.musicapp.repository.impl.LastFmAuthRepositoryImpl;
+import android.content.pm.LauncherApps;
+
+import com.example.andrescabal.musicapp.domain.model.MobileSessionResponse;
+import com.example.andrescabal.musicapp.domain.usecase.LastFmAuthUseCase;
+import com.example.andrescabal.musicapp.helpers.Callback;
+import com.example.andrescabal.musicapp.helpers.ThreadExecutor;
+import com.example.andrescabal.musicapp.repository.LastFmAuthRepository;
+import com.example.andrescabal.musicapp.repository.impl.LastFmAuthRepositoryImpl;
+
 
 /**
  * Created by krlosf on 15/04/18.
